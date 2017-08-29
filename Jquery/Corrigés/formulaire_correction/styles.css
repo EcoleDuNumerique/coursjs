@@ -1,0 +1,39 @@
+form {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:3px;
+}
+div.form-input {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+label {
+    font-family: Roboto, sans-serif;
+}
+#fake {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #414141;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#checkbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input[type='checkbox']{
+    display: none;
+}
+input[type='checkbox']:checked + #fake {
+    background-color: #8bc34a;
+}
+.redborder {
+    border: 1px solid red;
+}
+.redborder + #fake {
+    border: 2px solid red;
+}

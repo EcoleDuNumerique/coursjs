@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Jquery </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="container">
+
+    </div>
+
+    <input class="red"   type="range" min=0 max=255 value=0 /><br>
+    <input class="green" type="range" min=0 max=255 value=0 /><br>
+    <input class="blue"  type="range" min=0 max=255 value=0 />
+
+    <ul>
+        <li class="special"> Mon contenu 1 </li>
+        <li> Mon contenu 2 </li>
+        <li> Mon contenu 3 </li>
+        <li class="special"> Mon contenu 4 </li>
+        <li> Mon contenu 5 </li>
+    </ul>
+
+    <div class="special"></div>
+    <input type="text" />
+
+    <!-- Carrousel -->
+
+    <div class="carrousel">
+        <div class="img_1 active"></div>
+        <div class="img_2"></div>
+        <div class="img_3"></div>
+        <div class="img_4"></div>
+    </div>
+
+    
+    <div id="carrouselarrow">
+
+        <span class="arrow left"> < </span>
+
+        <div class="img_1 active"></div>
+        <div class="img_2"></div>
+        <div class="img_3"></div>
+        <div class="img_4"></div>
+
+        <span class="arrow right"> > </span>
+
+    </div>
+
+    <div id="ajout">
+
+        <p>Hello</p>
+
+    </div>
+
+    <!-- SHI FU MI -->
+
+    <div id="resultat">
+        <div id="me"></div>
+        <div id="computer"></div>
+    </div>
+    <h4 id="aff_result"></h4>
+    <div id="commande">
+        <div id="shi"><img src="pierre.png" /></div>
+        <div id="fu"><img src="papier.png" /></div>
+        <div id="mi"><img src="ciseaux.png" /></div>
+    </div>
+    
+    <!-- -->
+
+    <div id="test" data-type="hello"></div>
+
+    <!-- -->
+
+    <label> Renault </label><input type="checkbox" data-mark="renault" > <br>
+    <label> Peugeot </label><input type="checkbox" data-mark="peugeot"> <br>
+    <label> Porsche </label><input type="checkbox" data-mark="porsche"> <br>
+
+    <label> Blue </label><input type="checkbox" data-color="blue"> <br>
+    <label> Red </label><input type="checkbox" data-color="red"> <br>
+
+    <div class="car" data-mark="renault" data-color="red">Renault rouge</div>
+    <div class="car" data-mark="renault" data-color="blue">Renault bleu</div>
+    <div class="car" data-mark="peugeot" data-color="red">Peugeot rouge</div>
+    <div class="car" data-mark="peugeot" data-color="blue">Peugeot bleu</div>
+    <div class="car" data-mark="porsche" data-color="red">Porsche rouge</div>
+    <div class="car" data-mark="porsche" data-color="blue">Porsche bleu</div>
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

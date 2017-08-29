@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bloc {
+    width: 22%;
+    height: 150px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.bloc .front {
+    background-color: black;
+}
+.bloc .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a .back{
+    background-color: purple;
+}
+.b .back {
+    background-color: red;
+}
+.c .back {
+    background-color: green;
+}
+.d .back {
+    background-color: yellow;
+}
+.e .back {
+    background-color: orange;
+}
+.f .back {
+    background-color: blue;
+}
+.back .fa {
+    color: #fff;
+    font-size: 60px;
+}

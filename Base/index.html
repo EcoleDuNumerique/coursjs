@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Javascript </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="titre"> Hello world </h1>
+    <button id="mybutton">Click Me</button>
+
+    <div id="popup">
+        <p>Ceci est ma popup</p>
+    </div>
+
+    <div class="element">salut</div>
+    <div class="element">salut</div>
+    <div class="element">salut</div>
+    <div class="element">salut</div>
+    <div class="element"> <span> salut </span> </div>
+    <div class="element">salut</div>
+    <div class="element">salut</div>
+    <div class="element"> <span> salut </span> </div>
+    <div class="element">salut</div>
+    <div class="element">salut</div>
+
+    <span> Mon span </span>
+
+    <button id="colorbutton"> Color Me </button>
+
+    <div id="seeColor" ></div>
+
+    <input id="red"     type="range" min=0 max=255 value=0 > <br>
+    <input id="green"   type="range" min=0 max=255 value=0 > <br>
+    <input id="blue"    type="range" min=0 max=255 value=0 > <br>
+
+
+    <h2> Encode - Decode </h2>
+
+    <label> Phrase à encoder : </label>
+    <textarea></textarea> <br>
+
+    <label> Clé </label> <input id="key" type="text" /><br>
+
+    <p id="encoded"> La phrase encodée ici ... </p>
+
+    <button id="encode_button"> Encode </button>
+    <button id="decode_button"> Decode </button>
+
+    <br><br><br>
+    <h2> Mini Calculatrice </h2>
+
+    <input type="number" id="nbr_1"><input type="number" id="nbr_2"><br><br>
+    <button id="plus"> + </button> <button id="moins"> - </button> <button id="multiplie"> x </button> <button id="divise"> / </button>
+    <h4>Resultat : </h4>
+
+    <div class="container">
+        <div id="cube"></div>
+    </div>
+
+    <!-- Exercice Moyenne -->
+
+    <h2> Moyenne </h2>
+
+    <input type="text" id="notes">
+    <button id="add_note"> + </button>
+
+    <ul id="liste_notes">
+        
+    </ul>
+
+    <h4 id="moyenne"> Moyenne : </h4>
+
+
+    <!-- ***** Exercice bonhomme ******* -->
+
+    <div class="container">
+
+        <div id="bonhomme"></div>
+
+    </div>
+
+
+    <!-- ******************* -->
+
+    <script src="cryptage.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

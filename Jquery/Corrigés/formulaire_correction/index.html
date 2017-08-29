@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Forms </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div></div>
+    <form>
+
+        <div class="form-input">
+            <label>Nom d'utilisateur</label>
+            <input type="text" id="username" placeholder="Username" value="Pierre" />
+        </div>
+        <div class="form-input">
+            <label>E-mail</label>
+            <input type="text" id="email" placeholder="Votre e-mail" value="Pierre@hotmail.fr" />
+        </div>
+        <div class="form-input">
+            <label>Mot de passe</label>
+            <input type="password" id="password" placeholder="*****" value="123456789" />
+        </div>
+        <div class="form-input">
+            <label>Mot de passe confirmation</label>
+            <input type="password" id="password-confirm" placeholder="*****" value="123456789" />
+        </div>
+        <div class="form-input">
+            <label> Sexe </label>
+            <select id="gender" >
+                <option value=0 > Sélectionnez un genre </option>
+                <option> Homme </option>
+                <option> Femme </option>
+            </select> 
+        </div>
+        <div class="form-input">
+            <label>Teléphone</label>
+            <input type="tel" id="phone" placeholder="+33" />
+        </div>
+        <div class="form-input">
+            <label id="checkbox">
+                <span>Je ne suis pas un robot</span>
+                <input type="checkbox" id="robot" /><span id="fake"></span>
+            </label>
+        </div>
+
+        <select id="cp">
+            <option>66</option>
+            <option>34</option>
+            <option>11</option>
+        </select>
+
+        <select id="cities">
+        </select>
+
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+    <div id="errors"></div>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
